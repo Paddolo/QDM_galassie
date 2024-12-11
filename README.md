@@ -12,7 +12,7 @@ Nei file autoencoder.pth e Circuiti_parametrici.zip sono disponibili i parametri
 Nella cartella Circuiti_parametrici sono contenuti i paramtri di tutti i 15 circuiti. vanno eseguiti in ordine considerando la seguente notazione: circuito_t+1_t.pth svolge il denoising dal passo t+1 a t.
 
 Nel file Decoder_esterno.ipynb è presente il codice per l'addestramento del decoder necessario per aumentare la risoluzione delle immagini generate fino a 256x256
-Nel file Decoder_esterno.pth sono presenti i parametri del decoder pre-addestrato per l'aumento della risoluzione
+I parametri del modello Decoder_esterno pre-addestrato sono disponibili contattando direttamente l'autore, in alternativa eseguire il codice in Decoder_esterno.ipynb per addestrare il modello da zero
 
 Nel file encodend_images.zip è presente una copia del fil autoencoder.pth oltre che tutte le immagini del dataset compresse (8x8) dall'encoder di autoencoder.pth
 Questo file è particolarmente pesante e si può evitare di scaricarlo qualora si usino i circuiti quantistici già addestrati o in alternativa si esegua la relativa cella per il
